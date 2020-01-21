@@ -16,7 +16,7 @@ The following command provides an interactive shell where helm, tiller, and kube
 
 ### Non-interactive
 
-    docker run -it --rm iankoulski/helm:2.15.0 sh -c "helm version --client"
+    docker run -it --rm iankoulski/helm sh -c "helm version --client"
 
 ## Stop
 This helm container normally runs only while there is an active session, then the container stops. If you need to remove the stopped container execute stop.sh or "docker rm -f helm".
