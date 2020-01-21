@@ -1,6 +1,6 @@
 FROM alpine:3.11.3
 
-MAINTAINER Alex Iankoulsi <alex_iankoulski@yahoo.com>
+MAINTAINER Alex Iankoulski <alex_iankoulski@yahoo.com>
 
 ARG http_proxy
 ARG https_proxy
